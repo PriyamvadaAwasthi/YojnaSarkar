@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Audio</title>
+</head>
+<body style="background-color:darkgray;">
+    
+    <div style="background-color: green;width:60%;margin-left: 250px;height: 450px;margin-top: 100px;
+    border-color: green;border-width: 10px;">
+       
+    <form action="/" method="POST" enctype="multipart/form-data" style="background-color: lightgray;height: 100%;">
+
+        <!-- <div style="width: 80%;background-color: blueviolet;margin-left: 10%;height: 50%;"> -->
+
+        <h1 style="padding-left: 35%;padding-top: 60px;">Ask your Question</h1> 
+        
+        <button type="submit" style="width:100px;height: 70px;border-radius:300px;color: white;
+        font-weight:bold ;background-color: red;border-color:gray;border-style: double;
+        margin-left: 42%;">
+            Press Button</button>
+            <br>
+            <br>
+            <div style="width: 80%;margin-left: 70px;padding-top: 40px;padding-bottom: 10px;  
+            text-align: center;align-items: center;"> 
+                <label id="dynamiclabel" style="width: 50%;color:green;font-size: larger;font-weight: bold;">{{query}}</label>
+                </div>
+            <br>
+            <br>
+        <!-- </div> -->
+            <div style="width: 80%;margin-left: 70px;padding-top: 10px;padding-bottom: 10px;  
+            text-align: center;align-items: center;"> 
+            <label id="dynamiclabel" style="width: 50%;color:green;font-size: larger;font-weight: bold;">{{answer}}</label>
+            </div>
+        
+        
+
+           
+            
+    </form>
+
+</div>
+</body>
+</html>
