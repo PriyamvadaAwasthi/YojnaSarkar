@@ -14,7 +14,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain    
 from langchain_community.document_loaders import PyPDFLoader
 
-#Hugging Face Token - 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
+
 app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
